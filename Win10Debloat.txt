@@ -1,3 +1,4 @@
+This is created for my personal use, with the help of Google search.
 Activate Windows 10
 slmgr.vbs /ipk <enter your 25-digit product key here>
 
@@ -23,13 +24,13 @@ services.msc - Indexing Service or Windows Search -  Double-click it, and from t
 click Stop. Then reboot.
 
 5. Clean out your hard disk
-Settings > System > Storage and at the top of the screen – in the Storage Sense section – move the toggle 
+Settings > System > Storage and at the top of the screen â€“ in the Storage Sense section â€“ move the toggle 
 from Off to On
 
 6. Clean out your Registry
 
 https://www.techlila.com/windows-10-tips-and-tricks/
-1. Open Windows Explorer to “This PC” instead of “Quick Access”
+1. Open Windows Explorer to â€œThis PCâ€ instead of â€œQuick Accessâ€
 
 2. Download Updates from more than One Place
 Updatess-Advanced options-Choose how updates are delivered.
@@ -64,24 +65,23 @@ Start > Control Panel > System > Advanced System Settings > Environment Variable
 In this Environment Variables window, in the User variables for (your-username) highlight Path and click Edit, 
 click new enter "C:\Users\Pha13\AppData\Local\Android\Sdk\platform-tools"
 
-Run:
-netplwiz - disable login pin
-regedit
+Useful Run commands:
+netplwiz 	- disable login pin
+regedit		- To edit registry
 services.msc
-sysdm.cpl - Disable shadows, animations and visual effects
+sysdm.cpl 	- Disable shadows, animations and visual effects
 perfmon /report - Get help from the Performance Monitor
 lusrmgr.msc
 gpedit.msc
 Netstat
-control.exe srchadmin.dll
+control.exe 
+srchadmin.dll
 msconfig
 temp
 %temp%
+%appdata% 	- To delete app data & restore the app with its defaut settings in Windows.
 
 Keys:
 Shift+f10 : bring cmd while OS installing
-
-AOMEI lisence :
-AOPR-TF01I-9TW36-WW3O8
 
 Benchmark - https://download.cnet.com/Geekbench/3000-2094_4-10648330.html
