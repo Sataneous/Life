@@ -1,0 +1,87 @@
+Activate Windows 10
+slmgr.vbs /ipk <enter your 25-digit product key here>
+
+Create a restore point & registry backup
+Change DNS of Wifi
+
+Debloat win10
+Extract Debloater to Desktop - Run CMD as admin -Set-ExecutionPolicy Unrestricted -Force 
+-cd C:\Users\Pha13\Desktop\Windows10Debloater-master -.\Windows10Debloater.ps1
+
+https://www.computerworld.com/article/3029168/windows-10-quick-tips-12-ways-to-speed-up-your-pc.amp.html
+1. Change your power settings
+Control Panel, then select Hardware and Sound > Power Options
+2. Disable programs that run on startup
+Alt+Ctrl+Del - Task Manager
+https://youtu.be/ttiA0zRbzko
+
+3. Shut Off Windows Tips and Tricks
+Notifications
+
+4. Turn off search indexing
+services.msc - Indexing Service or Windows Search -  Double-click it, and from the screen that appears, 
+click Stop. Then reboot.
+
+5. Clean out your hard disk
+Settings > System > Storage and at the top of the screen – in the Storage Sense section – move the toggle 
+from Off to On
+
+6. Clean out your Registry
+
+https://www.techlila.com/windows-10-tips-and-tricks/
+1. Open Windows Explorer to “This PC” instead of “Quick Access”
+
+2. Download Updates from more than One Place
+Updatess-Advanced options-Choose how updates are delivered.
+
+3. Reclaim your hard disk space by deleting the old Windows Installation
+4. Take Control of the Start Menu by Removing Unnecessary Shortcuts
+5. Resize the Start Menu According to Your Needs
+6. Enable/Disable Transparency
+7. Command Prompt Keyboard Hotkeys
+8. Enable Cortana to Respond to Your Voice Only
+9. Enable Dark mode on Microsoft Edges
+
+10. Enable God Mode
+Create folder(name)GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+
+11. Record Gameplay using Game DVR
+12. Disable Wi-Fi Sense
+13. Other Useful Tips 
+13.1: Reveal All Apps Alphabetically
+13.2: Mount and Burn ISO Images Without Any Software
+13.3: Remove Login Authentication
+netplwiz
+13.4: Remove Internet Explorer
+
+Install Android Studio
+
+Set ADB path
+echo %PATH%
+setx PATH "%PATH%;C:\Users\Pha13\AppData\Local\Android\Sdk\platform-tools"
+				or
+Start > Control Panel > System > Advanced System Settings > Environment Variables...
+In this Environment Variables window, in the User variables for (your-username) highlight Path and click Edit, 
+click new enter "C:\Users\Pha13\AppData\Local\Android\Sdk\platform-tools"
+
+Run:
+netplwiz - disable login pin
+regedit
+services.msc
+sysdm.cpl - Disable shadows, animations and visual effects
+perfmon /report - Get help from the Performance Monitor
+lusrmgr.msc
+gpedit.msc
+Netstat
+control.exe srchadmin.dll
+msconfig
+temp
+%temp%
+
+Keys:
+Shift+f10 : bring cmd while OS installing
+
+AOMEI lisence :
+AOPR-TF01I-9TW36-WW3O8
+
+Benchmark - https://download.cnet.com/Geekbench/3000-2094_4-10648330.html
